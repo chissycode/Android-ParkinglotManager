@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:background="@drawable/bgg2"
+     >
+
+    <TextView
+        android:id="@+id/cardcash_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cardcash_card"
+        android:layout_marginTop="14dp"
+        android:text="@string/cardnumber"
+        android:textColor="#fff"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/cardcash_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="32dp"
+        android:text="@string/card"
+        android:textColor="#fff"
+        android:textSize="28dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:text="返回主界面" />
+
+    <TextView
+        android:id="@+id/leavingtime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cashleavingtime"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/cashleavingtime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cardcash_number"
+        android:layout_marginTop="42dp"
+        android:text="@string/leavingtime"
+        android:textColor="#fff"
+        android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/text_cash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/leavingtime"
+        android:layout_marginTop="36dp"
+        android:text="@string/textcash"
+        android:textColor="#fff"
+        android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/text_cash"
+        android:layout_marginTop="22dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#fff" />
+
+</RelativeLayout>
